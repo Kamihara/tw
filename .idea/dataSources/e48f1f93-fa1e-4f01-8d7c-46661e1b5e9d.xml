@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - @localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="aiit">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="ask_development"/>
+    <schema id="4" parent="1" name="ask_test"/>
+    <schema id="5" parent="1" name="development"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="km">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="8" parent="1" name="mysite"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="mywebsite_development"/>
+    <schema id="11" parent="1" name="mywebsite_test"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="practice3"/>
+    <schema id="14" parent="1" name="production"/>
+    <schema id="15" parent="1" name="que_development"/>
+    <schema id="16" parent="1" name="que_test"/>
+    <schema id="17" parent="1" name="test"/>
+    <schema id="18" parent="1" name="sys"/>
+    <table id="19" parent="7" name="tweets"/>
+    <column id="20" parent="19" name="tweet_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="19" name="text">
+      <Position>2</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="22" parent="19" name="created_at">
+      <Position>3</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="23" parent="19" name="user_id">
+      <Position>4</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="24" parent="19" name="user_desc">
+      <Position>5</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="25" parent="19" name="screen_name">
+      <Position>6</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="26" parent="19" name="user_name">
+      <Position>7</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <key id="27" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tweet_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
